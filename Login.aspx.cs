@@ -7,16 +7,10 @@ namespace loginProcedure
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-
-
             if (Request.Cookies["username"] != null)
             {
-
                 Response.Redirect("Login.aspx");
             }
-
-
         }
 
         protected void Login_Btn(object sender, EventArgs e)
